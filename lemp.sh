@@ -9,7 +9,7 @@
 
 #updating packages
 echo -e "\nUpdating package lists..\n"
-sudo apt-get -y update
+sudo apt-get -y update && sudo apt-get upgrade
 
 #install Ngnix
 echo -e "\nInstalling Ngnix server...\n"
@@ -25,7 +25,7 @@ sudo apt-get -y install mysql-server
 
 #install Mysql server
 echo -e "\nInstalling PHP-FPM and Mysql extension for PHP...\n"
-sudo apt-get -y install php7.0-fpm php-mysql
+sudo apt-get -y install php php7.2-fpm php7.2-mysql
 
 #Move nginx conf file to enable php support on ngnix
 echo -e "\nMoving Nginx configuration file...\n"
