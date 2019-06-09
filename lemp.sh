@@ -2,7 +2,7 @@
 #
 # [Quick LEMP install Server Script]
 #
-# GitHub:   https://github.com/soninod/quick-lemp-install
+# GitHub:   https://github.com/soninod/lemp-installer
 # Author:   soninod
 #
 
