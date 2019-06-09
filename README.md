@@ -6,7 +6,7 @@ Tested on : Debian, Ubuntu, Linux
 Steps:
 
 1. clone thsi repository
-2. `cd quick-lemp-install`
+2. `cd lemp-installer`
 3. `chmod +x lemp.sh` this command makes bash script executable
 4. `./lemp.sh`
 
